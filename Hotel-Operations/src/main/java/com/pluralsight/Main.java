@@ -1,11 +1,24 @@
 package com.pluralsight;
-import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        Scanner myScanner = new Scanner(System.in);
-        System.out.print("Welcome to the hotel!\n" + "What size will your bed be? (King , Double):");
-        String bed = myScanner.nextLine();
+        Hotel hotel = new Hotel("Ocean View", 2, 3);
 
+        System.out.println("Hotel: " + hotel.getName());
+
+        // Book all suites
+        System.out.println("Suite booked: " + hotel.bookSuite());
+        System.out.println("Suite booked: " + hotel.bookSuite());
+        System.out.println("Suite booked: " + hotel.bookSuite());
+
+        // Book all basic rooms
+        System.out.println("Basic room booked: " + hotel.bookBasicRoom());
+        System.out.println("Basic room booked: " + hotel.bookBasicRoom());
+        System.out.println("Basic room booked: " + hotel.bookBasicRoom());
+        System.out.println("Basic room booked: " + hotel.bookBasicRoom());
+
+        System.out.println("Booked suites: " + hotel.getBookedSuites());
+        System.out.println("Booked basic rooms: " + hotel.getBookedBasicRooms());
 
     }
 }
