@@ -41,12 +41,10 @@ public class Dealership {
     }
     public void removeVehicle(Vehicle vehicle) {
     }
-    public ArrayList<Vehicle> getVehiclesByPrice(
-            BigDecimal min, BigDecimal max) {
+    public ArrayList<Vehicle> getVehiclesByPrice(BigDecimal min, BigDecimal max) {
         return null;
     }
-    public ArrayList<Vehicle> getVehiclesByMakeModel(
-            String make, String model) {
+    public ArrayList<Vehicle> getVehiclesByMakeModel(String make, String model) {
         return null;
     }
     public ArrayList<Vehicle> getVehiclesByYear(
@@ -56,8 +54,7 @@ public class Dealership {
     public ArrayList<Vehicle> getVehiclesByColor(String color) {
         return null;
     }
-    public ArrayList<Vehicle> getVehiclesByMileage(
-            int min, int max) {
+    public ArrayList<Vehicle> getVehiclesByMileage(int min, int max) {
         return null;
     }
     public ArrayList<Vehicle> getVehiclesByType(
